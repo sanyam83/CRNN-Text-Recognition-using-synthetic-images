@@ -4,3 +4,7 @@ I spend the day figuring out the problem and approach to take for the problem .A
 2. Edited chn_text.txt and enum_text.txt files 
 
 The reason for above was to reduce the time of working that is instead of editing whole code for english and remove chinese text , I replaced all chinese text file content to english.
+
+# Day 2
+Figured out how to create TFRecord still has some work left to do. 
+Uploaded the notebook in whcih various operations are being held 
