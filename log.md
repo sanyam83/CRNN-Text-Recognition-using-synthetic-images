@@ -14,8 +14,9 @@ Uploaded the notebook in whcih various operations are being held
 
   So used pickle to dump count when the program closes and load the last dumped count value to continue the index.
   See master branch notebook for previous and tfrecord branch notebook for after using pickle and effect on dataset.
+
 2. Generated tfrecord file containing image , image name, size and label as features.
    Check training dataset variable at the end of notebook.
 
-3.Notebook code is a bit unorganized , but will be in organized manner by tomorroq
+3. Notebook code is a bit unorganized , but will be in organized manner by tomorroq
 
