@@ -30,7 +30,7 @@ font_cfg = dict(
 perspective_transform = NormPerspectiveTransformCfg(20, 20, 1.5)
 
 chn_data = GeneratorCfg(
-    num_image=2000,
+    num_image=10000,
     save_dir=OUT_DIR / "char_corpus",
     render_cfg=RenderCfg(
         bg_dir=BG_DIR,
@@ -52,17 +52,17 @@ chn_data = GeneratorCfg(
 
 
 rand_data = GeneratorCfg(
-    num_image=2000,
+    num_image=10000,
     save_dir=OUT_DIR / "rand_corpus",
     render_cfg=RenderCfg(
         bg_dir=BG_DIR,
         perspective_transform=perspective_transform,
-        corpus=RandCorpus(RandCorpusCfg(chars_file=CHAR_DIR / "chn.txt", **font_cfg),),
+        corpus=RandCorpus(RandCorpusCfg(chars_file=CHAR_DIR / "num.txt", **font_cfg),),
     ),
 )
 
 eng_word_data = GeneratorCfg(
-    num_image=2000,
+    num_image=10000,
     save_dir=OUT_DIR / "word_corpus",
     render_cfg=RenderCfg(
         bg_dir=BG_DIR,
@@ -80,7 +80,7 @@ eng_word_data = GeneratorCfg(
 
 
 same_line_data = GeneratorCfg(
-    num_image=2000,
+    num_image=10000,
     save_dir=OUT_DIR / "same_line_data",
     render_cfg=RenderCfg(
         bg_dir=BG_DIR,
@@ -115,7 +115,7 @@ same_line_data = GeneratorCfg(
 
 
 extra_text_line_data = GeneratorCfg(
-    num_image=2000,
+    num_image=10000,
     save_dir=OUT_DIR / "extra_text_line_data",
     render_cfg=RenderCfg(
         bg_dir=BG_DIR,
