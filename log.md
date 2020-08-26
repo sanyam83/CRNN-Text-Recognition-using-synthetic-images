@@ -20,3 +20,9 @@ Uploaded the notebook in whcih various operations are being held
 
 3. Notebook code is a bit unorganized , but will be in organized manner by tomorroq
 
+# Day 4 
+1. Faced Challanges in decoding tfrecord file , still need some more time.(I have less experience in tfrecord file)
+
+2. Figured out the model of ctc based CRNN . Also figured out type of input required for the model.(thats why decoding tfrecord file in required format is challenging).
+
+3. Also edited text_renderer file according to allowed characters i.e. A-Z,0-9.
