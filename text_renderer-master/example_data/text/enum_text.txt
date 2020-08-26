@@ -1,4 +1,0 @@
-python
-pytorch
-crnn
-tensorflow
