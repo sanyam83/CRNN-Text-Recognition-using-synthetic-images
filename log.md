@@ -18,7 +18,7 @@ Uploaded the notebook in whcih various operations are being held
 2. Generated tfrecord file containing image , image name, size and label as features.
    Check training dataset variable at the end of notebook.
 
-3. Notebook code is a bit unorganized , but will be in organized manner by tomorroq
+3. Notebook code is a bit unorganized , but will be in organized manner by tomorrow
 
 # Day 4 
 1. Faced Challanges in decoding tfrecord file , still need some more time.(I have less experience in tfrecord file)
@@ -26,3 +26,18 @@ Uploaded the notebook in whcih various operations are being held
 2. Figured out the model of ctc based CRNN . Also figured out type of input required for the model.(thats why decoding tfrecord file in required format is challenging).
 
 3. Also edited text_renderer file according to allowed characters i.e. A-Z,0-9.
+
+# Day 5
+1. Created a crnn model using VGG CNN and Bi-LSTM networks code taken from - https://github.com/qjadud1994/CRNN-Keras.git
+
+2. Edited Image_generator.py -:
+  
+    i) Addded function to read image files from multiple directories.
+  
+    ii) Edited the function to read labels from the dataframe passed (instead of image name)
+
+3. Edited Parameter.py - according to maximum allowed length and range of characters allowed.
+
+4. Also, model worked well
+
+Refer to master brach to compare changes.
