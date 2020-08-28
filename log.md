@@ -41,3 +41,12 @@ Uploaded the notebook in whcih various operations are being held
 4. Also, model worked well
 
 Refer to master brach to compare changes.
+
+# Day 6 
+1. Successfully ran model for 30 epochs (acccuracy wasn't good, will run it or many more epochs for better results)
+
+2. Given model iitially didnt work for (128, 32) dimension images, so editing of model was done in Model.py in crnn directory.
+
+3. Edited Data to remove or ignore spaces for model as well as prediction.
+
+4.Also, updated Image_Generator.py in crnn directory to convert texts to labels.
