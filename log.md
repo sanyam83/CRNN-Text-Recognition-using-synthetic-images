@@ -41,3 +41,10 @@ Uploaded the notebook in whcih various operations are being held
 4. Also, model worked well
 
 Refer to master brach to compare changes.
+
+# Day 6-7
+
+1. Trained model with 100 epochs with batch size of 128 .
+2. got loss of 0.6 
+3. Trained model for another 100 epochs with same batch size.
+4. Got loss of 0.26 , loss does not go lower than 0.26
