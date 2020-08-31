@@ -50,3 +50,10 @@ Refer to master brach to compare changes.
 3. Edited Data to remove or ignore spaces for model as well as prediction.
 
 4.Also, updated Image_Generator.py in crnn directory to convert texts to labels.
+
+# Day 7 
+1. Ran model for 100 epochs with batch size of 128, accuracy of model was not good.
+
+2. Ran model for 100 epochs, this time with batch size of 64, got accuracy of 71% and loss = 0.6
+
+3.Created a REST API using flask .
