@@ -8,7 +8,7 @@ Text renderer is used for generating synthetic dataset (https://github.com/oh-my
 
 Read log.md to know about changes made in both the files.
 
-Run the Internship_Assignment.ipynb to get prediction and results.
+### Run the Internship_Assignment.ipynb to get prediction and results.
 
 Training accuracy and Loss -:
 
