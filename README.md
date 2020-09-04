@@ -13,7 +13,7 @@ Sequence data of arbitrary length can be processed because of LSTM which is free
 There is no need for a detector or cropping technique to find each character one by one.
 You can use CRNN for OCR, license plate recognition, text recognition, and so on. It depends on what data you are training.
 
-I used a slightly modified version of the original CRNN model. (Input size : 100x30 -> 128x64 & more CNN Layer)
+I used a slightly modified version of the original CRNN model. (Input size : 100x30 -> 128x32 & more CNN Layer)
 
 I have used VGG + Bidirectional LSTM layers
 
