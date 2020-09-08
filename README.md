@@ -1,4 +1,4 @@
-# sanyam_suri_9582061144-IITB-Assignment-Jul-Dec2020-Batch2
+# CRNN
 
 ## Text Recognition using CRNN with CTC loss
 
